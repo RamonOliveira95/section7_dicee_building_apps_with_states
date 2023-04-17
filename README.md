@@ -13,10 +13,14 @@
 - Retirado o Padding de cada image e adicionado um TextButton no lugar de cada um;
 - Em cada TextButton foi adicionado um print informando que aquele botão foi pressionado.
 
-# AULA 4
+# AULA 4 - 1.0.3
 - Adicionado variável para receber o valor do dado;
 - Esse número do dado será enviado para a parte que recebe a informação de qual imagem usar.
 
 # AULA 5 - 1.0.3
 - Alterado de Stateless Widget para Stateful Widget;
 - Adicionado um setState dentro do onePress do TextButton, para identificar o que vai mudar na tela.
+
+# Aula 6 - 1.0.4
+- Adicionado a biblioteca 'dart:math', pois através dela será randomizado algum valor;
+- Dentro do setState foi adicionado Random().nextInt(6) + 1 para randomizar algo entre 1 e 6, pois se não tivesse esse +1, ele randomizaria entre 0 e 5.
