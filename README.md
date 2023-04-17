@@ -12,3 +12,11 @@
 # AULA 3 - 1.0.2
 - Retirado o Padding de cada image e adicionado um TextButton no lugar de cada um;
 - Em cada TextButton foi adicionado um print informando que aquele botão foi pressionado.
+
+# AULA 4
+- Adicionado variável para receber o valor do dado;
+- Esse número do dado será enviado para a parte que recebe a informação de qual imagem usar.
+
+# AULA 5 - 1.0.3
+- Alterado de Stateless Widget para Stateful Widget;
+- Adicionado um setState dentro do onePress do TextButton, para identificar o que vai mudar na tela.
