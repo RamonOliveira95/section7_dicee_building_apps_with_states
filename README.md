@@ -24,3 +24,7 @@
 # Aula 6 - 1.0.4
 - Adicionado a biblioteca 'dart:math', pois através dela será randomizado algum valor;
 - Dentro do setState foi adicionado Random().nextInt(6) + 1 para randomizar algo entre 1 e 6, pois se não tivesse esse +1, ele randomizaria entre 0 e 5.
+
+# Aula 7 - 1.0.5
+- Adicionado o modo Random para as duas imagens quando clica em pelo menos uma delas. Não precisa mais clicar em uma e depois na outra;
+- Criado função chamada randomDice() dentro de um setState para mudar as imagens quando forem clicadas.
